@@ -1,0 +1,4 @@
+# Configuration with credentials
+src/main/resources/application.properties
+application-production.properties
+src/main/resources/application-*.properties
