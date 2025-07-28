@@ -1,4 +1,30 @@
-# Configuration with credentials
+# Maven build directory
+target/
+
+# Configuration with credentials (already in your gitignore)
 src/main/resources/application.properties
-application-production.properties
 src/main/resources/application-*.properties
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+logs/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# OS specific files
+.DS_Store
+Thumbs.db
